@@ -14,11 +14,6 @@ var feedback = document.getElementById('feedback');
 // Emit events
 handle.disabled = false;
 
-handle.addEventListener('click', function()
-{
-    alert("No podrás cambiar tú nombre de usuario en el futuro")
-});
-
 btn.addEventListener('click', function()
 {
     if(handle.disabled == false)
